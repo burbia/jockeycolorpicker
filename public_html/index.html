@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colors</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-2.2.3.min.js" type="text/javascript"></script>        
+        <script src="js/FileSaver.min.js" type="text/javascript"></script>
+        <script src="js/palette-color-picker.js" type="text/javascript"></script>
+        <script src="js/palette-element.js" type="text/javascript"></script>
+        <link href="css/palette-color-picker.css" rel="stylesheet" type="text/css"/>
+        <link href="css/palette-element.css" rel="stylesheet" type="text/css"/>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="panel panel-default col-sm-5">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        Cap
+                                    </h4>
+                                </div>
+                                <div id="capPanel" class="panel-body">
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Style</label>
+                                        <div class="controls">
+                                            <input id="Cap" type="text" name="capLayer" value="primary" style="display:none">
+                                            <!--<select id="capStyle">
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                            </select>-->
+                                        </div>
+                                    </div>
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Main color</label>
+                                        <div class="controls">
+                                            <input id="capcolor1" type="text" name="unique-name-1" value="primary" style="display:none">
+                                        </div>
+                                    </div>                                   
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Secondary color</label>
+                                        <div class="controls">
+                                             <input id="capcolor2" type="text" name="unique-name-2" value="primary" style="display:none">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        Jacket
+                                    </h4>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Style</label>
+                                        <div class="controls">
+                                            <input id="Jacket" type="text" name="jacketLayer" value="primary" style="display:none">
+                                            <!--<select id="jacketStyle">
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                            </select>-->
+                                        </div>
+                                    </div>
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Main color</label>
+                                        <div class="controls">
+                                            <input id="jacketcolor1" type="text" name="unique-name-3" value="primary" style="display:none">
+                                        </div>
+                                    </div>
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Secondary color</label>
+                                        <div class="controls">
+                                            <input id="jacketcolor2" type="text" name="unique-name-4" value="primary" style="display:none">
+                                        </div>
+                                    </div>
+                                </div>                            
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        Sleeves
+                                    </h4>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Style</label>
+                                        <div class="controls">
+                                            <input id="Sleeves" type="text" name="sleevesLayer" value="primary" style="display:none">
+                                            <!--<select id="sleevesStyle">
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                            </select>-->
+                                        </div>
+                                    </div>
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Main color</label>
+                                        <div class="controls">
+                                            <input id="sleevescolor1" type="text" name="unique-name-5" value="primary" style="display:none">
+                                        </div>
+                                    </div>
+                                    <div class="form-group control-group col-sm-12">
+                                        <label class="control-label strong col-sm-8">Secondary color</label>
+                                        <div class="controls">
+                                            <input id="sleevescolor2" type="text" name="unique-name-6" value="primary" style="display:none">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="col-md-3">
+                        <div id="content"  class="col-md-12">                               
+                        </div>
+                        <canvas id="canvas" style="display:none" width=500 height=600></canvas>
+                        <button id="exportImg" type="button" class="btn btn-default" ><span class="glyphicon glyphicon-download-alt"></span> Export</button>
+                    </div>
+                </div>
+            </div>
+        </div>            
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                var colorAvailable = [{"01": "#FFFFFF"},{"02": "#FF0000"}, {"03": "#160AFF"}, {"04": "#22B14C"}, {"05": "#F5C930"}, {"06": "#000000"}];
+                //var colorAvailable = ["#E91E63","#FF0000","#160AFF","#550AFF","#000000","#FFFFFF"];
+                var capsAvailable = [{"01": "01"},{"02": "02"}, {"03": "03"}, {"04": "04"}, {"05": "05"}, {"06": "06"}];                
+                
+                // Style Pickers
+                $('[name="capLayer"]').paletteElement({
+                    colors: capsAvailable,
+                    clear_btn: 'none',
+                    imgPath: 'templates/Cap/Cap' 
+                });
+                $('[name="jacketLayer"]').paletteElement({
+                    colors: capsAvailable,
+                    clear_btn: 'none',
+                    imgPath: 'templates/Jacket/Jacket' 
+                });                
+                $('[name="sleevesLayer"]').paletteElement({
+                    colors: capsAvailable,
+                    clear_btn: 'none',
+                    imgPath: 'templates/Sleeves/Sleeves' 
+                });
+                // Color Pickers
+                $('[name="unique-name-1"]').paletteColorPicker({
+                    colors: colorAvailable,
+                    clear_btn: 'none'
+                });
+                $('[name="unique-name-2"]').paletteColorPicker({
+                    colors: colorAvailable,
+                    clear_btn: 'none'
+                });
+                $('[name="unique-name-2"]').paletteColorPicker({
+                    colors: colorAvailable,
+                    clear_btn: 'none'
+                });
+                $('[name="unique-name-3"]').paletteColorPicker({
+                    colors: colorAvailable,
+                    clear_btn: 'none'
+                });
+                $('[name="unique-name-4"]').paletteColorPicker({
+                    colors: colorAvailable,
+                    clear_btn: 'none'
+                });
+                $('[name="unique-name-5"]').paletteColorPicker({
+                    colors: colorAvailable,
+                    clear_btn: 'none'
+                });
+                $('[name="unique-name-6"]').paletteColorPicker({
+                    colors: colorAvailable,
+                    clear_btn: 'none'
+                });
+                
+                $("#content").load("templates/template.svg", function () {
+                    $("#content .Cap").load('templates/Cap/Cap' + $("#Cap").parent().find('.active').attr('data-value') + '.svg', function () {
+                        paintPicture('Cap');
+                    });
+                    $("#content .Jacket").load('templates/Jacket/Jacket' + $("#Jacket").parent().find('.active').attr('data-value') + '.svg', function () {
+                        paintPicture('Jacket');
+                    });
+                    $("#content .Sleeves").load('templates/Sleeves/Sleeves' + $("#Sleeves").parent().find('.active').attr('data-value') + '.svg', function () {
+                        paintPicture('Sleeves');
+                    });
+                    checkColors();
+                });
+
+                $(".swatch").click(function() {
+                    var aux = $(this).parent().parent().next().attr('id');
+                    // If it is a  layer
+                    if ($('#content g').hasClass(aux)){
+                        $('#content .'+aux).load('templates/'+aux+'/'+aux+$(this).attr('data-value') + '.svg', function () {
+                            paintPicture(aux);
+                        });
+                    }
+                    else
+                        $('.'+aux).attr("fill", $(this).attr('data-color'));                    
+                });
+
+                $("#capcolor2").change(function () {
+                    $(".capcolor2").attr("fill", $("#capcolor2").val());
+                });
+
+                $("#jacketcolor1").change(function () {
+                    $(".jacketcolor1").attr("fill", $("#jacketcolor1").val());
+                });
+
+                $("#jacketcolor2").change(function () {
+                    $(".jacketcolor2").attr("fill", $("#jacketcolor2").val());
+                });
+
+                $("#sleevescolor1").change(function () {
+                    $(".sleevescolor1").attr("fill", $("#sleevescolor1").val());
+                });
+
+                $("#sleevescolor2").change(function () {
+                    $(".sleevescolor2").attr("fill", $("#sleevescolor2").val());
+                });
+
+                $("#capStyle").change(function () {
+                    $("#content .capLayer").load('templates/cap/Cap' + $(this).val() + '.svg', function () {
+                        paintPicture('Cap');
+                        checkColors();
+                    });
+                });
+
+                $("#jacketStyle").change(function () {
+                    $("#content .jacketLayer").load('templates/jacket/Jacket' + $(this).val() + '.svg', function () {
+                        paintPicture('Jacket');
+                        checkColors();
+                    });
+                });
+
+                $("#sleevesStyle").change(function () {
+                    $("#content .sleevesLayer").load('templates/sleeves/Sleeves' + $(this).val() + '.svg', function () {
+                        paintPicture('Sleeves');
+                        checkColors();
+                    });
+                });
+
+                function checkColors() {
+                    if ($("#content .Cap .capcolor2").length == 0) {
+                        $("#capcolor2").parent().parent().hide();
+                    } else {
+                        $("#capcolor2").parent().parent().show();
+                    }
+                    if ($("#content .Jacket .jacketcolor2").length == 0) {
+                        $("#jacketcolor2").parent().parent().hide();
+                    } else {
+                        $("#jacketcolor2").parent().parent().show();
+                    }
+                    if ($("#content .Sleeves .sleevescolor2").length == 0) {
+                        $("#sleevescolor2").parent().parent().hide();
+                    } else {
+                        $("#sleevescolor2").parent().parent().show();
+                    }
+                }
+                
+                function paintPicture(layer) {
+                    $('.'+layer.toLowerCase()+'color1').attr("fill", $('#'+layer.toLowerCase()+'color1').prev().find('.active').attr('data-color'));                    
+                    $('.'+layer.toLowerCase()+'color2').attr("fill", $('#'+layer.toLowerCase()+'color2').prev().find('.active').attr('data-color'));
+                    checkColors();                   
+                }
+
+                /*function paintCap() {
+                    $(".capcolor1").attr("fill", $("#capcolor1").prev().find('.active').attr('data-color'));                    
+                    $(".capcolor2").attr("fill", $("#capcolor2").prev().find('.active').attr('data-color')); 
+                }
+
+                function paintJacket() {
+                    $(".jacketcolor1").attr("fill", $("#jacketcolor1").prev().find('.active').attr('data-color'));        
+                    $(".jacketcolor2").attr("fill", $("#jacketcolor2").prev().find('.active').attr('data-color'));        
+                }
+
+                function paintSleeves() {
+                    $(".sleevescolor1").attr("fill", $("#sleevescolor1").prev().find('.active').attr('data-color'));        
+                    $(".sleevescolor2").attr("fill", $("#sleevescolor2").prev().find('.active').attr('data-color'));        
+                }*/
+
+                $("#exportImg").click(function () {
+                    exportImage();
+                });
+
+                function exportImage() {
+                    var svgText = $("#content").html();
+                    var myCanvas = document.getElementById("canvas");
+                    var ctxt = myCanvas.getContext("2d");
+                    drawInlineSVG(ctxt, svgText, function () {
+                        canvas.toBlob(function (blob) {
+                            saveAs(blob, "jacket.png");
+                        });
+                    });
+                }
+
+                function drawInlineSVG(ctx, rawSVG, callback) {
+                    var svg = new Blob([rawSVG], {type: "image/svg+xml;charset=utf-8"}),
+                            domURL = self.URL || self.webkitURL || self,
+                            url = domURL.createObjectURL(svg),
+                            img = new Image;
+
+                    img.onload = function () {
+                        ctx.drawImage(this, 0, 0);
+                        domURL.revokeObjectURL(url);
+                        callback(this);
+                    };
+
+                    img.src = url;
+                }
+            });
+        </script>
+    </body>
+</html>

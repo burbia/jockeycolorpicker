@@ -1,0 +1,57 @@
+<!-- SLEEVES -->
+
+<path id="path103_2_" fill="none" stroke="#000000" stroke-width="1.08" d="M111.987,43.747"/>
+<path id="path103_1_" fill="none" stroke="#000000" stroke-width="1.08" d="M94.168,5.228"/>
+<path id="path104_2_" fill="none" stroke="#000000" stroke-width="1.08" d="M77.248,35.827"/>
+<path id="path104_1_" fill="none" stroke="#000000" stroke-width="1.08" d="M75.809,49.687"/>
+<path id="path105_2_" fill="none" stroke="#000000" stroke-width="1.08" d="M86.428,5.408"/>
+<path id="path105_1_" fill="none" stroke="#000000" stroke-width="1.08" d="M78.328,28.447"/>
+
+<path id="line202_2_" fill="none" stroke="#000000" d="M114.239,71.268"/>
+<path id="line202_1_" fill="none" stroke="#000000" d="M111.238,70.467"/>
+<path id="path203_1_" fill="#FFFFFF" stroke="#000000" d="M71.484,221.093l-8.022-5.472c-0.001,0-9.119-0.363-9.849-5.835"/>
+<path fill="#FFFFFF" stroke="#000000" d="M112.149,81.95"/>
+<path fill="#FFFFFF" stroke="#000000" d="M115.244,78.855"/>
+<path fill="#FFFFFF" stroke="#000000" d="M109.054,78.855"/>
+
+<path class="sleevescolor1" fill="&sleevecolour1;" stroke="#000000" d="M194.743,171.455c2.561,11.311,0,14.22,0,14.22l-0.36,7.301l-10.939,14.22
+	c-2.561,20.061-10.22,25.17-10.22,25.17c0.369,8.75-9.841,13.86-9.841,13.86h-4.739l-17.511-10.58
+	c-2.55-13.86,7.66-21.521,7.66-21.521c-2.189-10.939,8.75-18.96,8.75-18.96c-1.819-12.771,2.55-15.689,2.55-15.689
+	c-2.909-2.181-4.739-10.57-4.739-10.57v-8.76c7.3-15.311,5.109-31.36,5.109-31.36c2.551-14.229-5.84-33.56-5.84-33.56
+	c20.061,0,24.439,27.359,24.439,27.359c8.75,3.28,11.67,30.271,11.67,30.271L194.743,171.455z"/>
+
+<path fill="none" stroke="#000000" d="M183.443,207.195l10.939-14.22l0.36-7.301c0,0,2.561-2.909,0-14.22l-4.011-18.601
+	c0,0-2.92-26.99-11.67-30.271c0,0-4.38-27.359-24.439-27.359c0,0,8.391,19.33,5.84,33.56c0,0,2.189,16.05-5.109,31.36v8.76
+	c0,0,1.83,8.391,4.739,10.57c0,0-4.369,2.92-2.55,15.689c0,0-10.939,8.021-8.75,18.96c0,0-10.21,7.659-7.66,21.521
+	l17.511,10.58h4.739c0,0,10.21-5.11,9.841-13.86C173.223,232.365,180.883,227.255,183.443,207.195z"/>
+
+<polygon id="polygon302" class="sleevescolor1" fill="&sleevecolour1;" stroke="#000000" points="141.132,235.645 138.946,245.127 152.803,253.881 
+	158.64,246.223 			"/>
+<path id="path303" class="sleevescolor1" fill="&sleevecolour1;" stroke="#000000" d="M43.158,96.273c0,0-21.651,3.335-23.839,26.312
+	c0,0-10.212,16.047-12.036,27.72v2.917c0,0-5.104,5.104-4.74,8.39L0.719,174.01c0,0-2.188,3.646,7.294,9.848l0.364,5.47
+	c0,0,1.459,5.474,6.564,10.942l2.918,3.646c0,0,2.553,9.481,6.93,11.671l2.553,1.824h4.013c0,0,3.646,8.023,13.494,5.105
+	c0,0,0,7.657,9.848,7.293l12.4-15.684c0,0,1.094-3.281-8.024-14.224l-2.188,0.729l1.095-2.918l-5.836-8.39l-0.364-4.74
+	c0,0-5.836-6.931-13.494-8.022c0,0,3.283-6.564,1.459-12.399c0,0,7.658,2.188,10.212-31.365
+	C49.955,132.796,49.723,99.919,43.158,96.273z"/>
+<polygon id="polygon304" class="sleevescolor1" fill="&sleevecolour1;" stroke="#000000" points="54.697,229.809 62.72,235.28 74.754,221.422 67.097,214.126 
+				"/>
+<path id="path305" d="M105.852,0.008"/>
+<path id="path306" d="M62.853,18.257"/>
+
+<circle class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" cx="174.262" cy="140.264" r="13.965"/>
+<path class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" d="M174.262,140.264"/>
+
+<circle class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" cx="176.262" cy="179.264" r="13.965"/>
+<path class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" d="M176.262,179.264"/>
+
+<circle class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" cx="163.262" cy="219.264" r="13.965"/>
+<path class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" d="M163.262,219.264"/>
+
+<circle class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" cx="47.263" cy="209.264" r="13.965"/>
+<path class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" d="M47.263,209.264"/>
+
+<circle class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" cx="22.263" cy="176.264" r="13.965"/>
+<path class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" d="M22.263,176.264"/>
+
+<circle class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" cx="32.263" cy="131.264" r="13.965"/>
+<path class="sleevescolor2" fill="&sleevecolour2;" stroke="#000000" stroke-width="0.5" d="M32.263,131.264"/>

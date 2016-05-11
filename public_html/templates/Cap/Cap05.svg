@@ -1,0 +1,61 @@
+<!-- CAP -->
+
+<path id="path101" class="capcolor1" fill="&capcolour1;" stroke="#000000" d="M61.049,41.227c0,0,5.939,13.14,30.779,9.54
+	c0,0,36.359-3.062,31.139-23.58c0,0-1.26-23.221-24.658-24.119l-7.021,0.898c0,0,4.859-3.238-0.359-3.42l-7.199,1.08
+	c0,0-5.222,1.62,1.079,3.24c0,0-8.279-2.88-17.279,9C67.529,13.867,58.709,25.567,61.049,41.227"/>
+<path id="path102" class="capcolor1" fill="&capcolour1;" stroke="#000000" d="M79.948,51.126c0,0,15.3,3.96,22.859,2.88c0,0,10.979,0.54,19.979-4.318
+	c0,0,19.439-12.061,0.36-21.24l0.18,3.601l-0.54,2.881l-0.72,1.979l-0.72,1.261l-1.62,2.159l-1.801,1.62l-2.521,1.8l-2.34,1.08
+	l-2.521,1.44l-2.521,0.898l-2.88,1.08l-2.521,0.721l-2.34,0.539l-2.88,0.36l-3.42,0.72l-3.062,0.36l-2.699,0.36h-2.881h-2.34
+	L79.948,51.126"/>
+<path id="path103" fill="none" stroke="#000000" stroke-width="1.08" d="M94.168,5.228c0,0,17.279,11.159,17.819,38.519"/>
+<path id="path104" fill="none" stroke="#000000" stroke-width="1.08" d="M75.809,49.687c0,0,0.18-9.54,1.438-13.86"/>
+<path id="path105" fill="none" stroke="#000000" stroke-width="1.08" d="M78.328,28.447c0,0,2.34-12.959,8.101-23.039"/>
+<path id="path106" fill="none" stroke="#000000" stroke-width="1.08" d="M115.948,43.387c0.18,0,0.36,0,0.54,0"/>
+
+<path id="line202_2_" fill="none" stroke="#000000" d="M114.239,71.268"/>
+<path id="line202_1_" fill="none" stroke="#000000" d="M111.238,70.467"/>
+
+<path id="path305" d="M105.852,0.008"/>
+<path id="path306" d="M62.853,18.257"/>
+
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M122.844,34.868c0.066-2.748-2.707-4.729-6.332-4.894
+	c-3.608-0.165-6.541,2.928-6.541,6.541c0,3.485,2.727,6.335,6.164,6.53C116.135,43.045,122.762,38.264,122.844,34.868z"/>
+
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M90.29,50.865c0.606-0.422,0.388-1.444,0.388-2.226
+	c0-3.612-2.928-6.54-6.541-6.54s-6.541,2.928-6.541,6.54c0,0.641,0.092,1.261,0.264,1.847
+	C77.861,50.486,89.067,51.716,90.29,50.865z"/>
+
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M105.415,47.435c0.33-0.782,0.514-1.643,0.514-2.546
+	c0-3.612-2.929-6.54-6.541-6.54c-1.429,0-2.75,0.458-3.826,1.234"/>
+
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M95.561,39.584c-1.645,1.188-2.715,3.122-2.715,5.306
+	c0,2.002,0.898,3.793,2.315,4.993c0,0,8.878-0.735,10.128-1.985"/>
+
+<circle class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" cx="101.137" cy="29.639" r="6.54"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M101.137,29.639"/>
+
+<circle class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" cx="67.387" cy="38.639" r="6.54"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M67.387,38.639"/>
+
+<circle class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" cx="82.137" cy="33.639" r="6.54"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M82.137,33.639"/>
+
+<circle class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" cx="69.887" cy="22.889" r="6.541"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M69.887,22.889"/>
+
+<circle class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" cx="89.137" cy="19.389" r="6.541"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M89.137,19.389"/>
+
+<circle class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" cx="114.137" cy="19.889" r="6.541"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M114.137,19.889"/>
+
+<circle class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" cx="101.387" cy="9.889" r="6.541"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M101.387,9.889"/>
+
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M72.097,9.389c0,3.612,2.928,6.541,6.541,6.541
+	s6.541-2.928,6.541-6.541c0-2.073-0.964-3.921-2.47-5.12"/>
+<path class="capcolor2" fill="&capcolour2;" stroke="#000000" stroke-width="0.5" d="M72.097,9.389c0,0,2.557-4.865,10.611-5.12"/>
+
+<path fill="none" stroke="#000000" d="M94.507,5.201c0,0,17.324,11.124,17.871,38.479"/>
+<path fill="#FFFFFF" stroke="#000000" d="M76.089,49.697c0,0,0.182-9.665,1.459-13.86"/>
+<path fill="none" stroke="#000000" d="M78.641,28.361c0,0,2.371-12.948,8.024-22.978"/>
